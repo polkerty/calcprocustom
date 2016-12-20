@@ -7,8 +7,8 @@
         d(), e(document).ready(function(a) {
             function b() {
                 a(u).html(CP.Templates["js/templates/widget.hbs"](i)), i.has_leads === !0 && i.phone_number_enabled && a("#cp_leads_required_phone_number").mask("(999) 999-9999");
-				var ips = document.getElementsByClassName("inputArea");
-				//custom code here
+		
+		    //custom code here
             }
 
             function c(b, c, d) {
